@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Diplom</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="menu_home">Главная</string>
+    <string name="menu_requests">Заявки</string>
+    <string name="menu_map">Заявки на карте</string>
+    <string name="menu_about_us">О нас</string>
+    <string name="menu_add_request">Создать заявку</string>
+
+    <string name="make_new_photo">Сделать другое фото</string>
+    <string name="next_step">Следующий шаг</string>
+
+    <string name="handinput">Ввести местоположение вручную:</string>
+
+    <string name="fromgallery">Галерея</string>
+    <string name="fromCamera">Камера</string>
+    <string name="source">Выбирите источник изображения</string>
+
+    <string name="theme">Тема:</string>
+    <string name="author">Автор:</string>
+    <string name="date">Дата:</string>
+    <string name="description">Описание:</string>
+    <string name="sendrequst">Отправить заявку</string>
+
+    <string name="wrongData">Заполните все поля!!!</string>
+
+    <string name="stepone">Шаг 1. Фото проблемы</string>
+    <string name="steptwo">Шаг 2. Местонахождение</string>
+    <string name="stepthree">Шаг 3. Описание проблемы</string>
+
+    <string name="requestSucceed">Заявка отправлена успешно!</string>
+    <string name="loading_tittle">Загрузка данных</string>
+    <string name="loading_message">Подождите, пожалуйста</string>
+</resources>

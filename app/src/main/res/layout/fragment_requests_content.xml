@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+    <android.support.v7.widget.CardView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/cardview">
+  <LinearLayout
+      android:layout_margin="@dimen/activity_horizontal_margin"
+      android:layout_width="match_parent"
+
+      android:layout_height="wrap_content">
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="80dp"
+          android:gravity="center"
+          android:id="@+id/requests_photoproblem"
+          android:src="@mipmap/ic_launcher"
+          android:layout_weight="1"
+          android:layout_marginRight="50dp"/>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_weight="0.5">
+
+          <LinearLayout
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+              <TableRow
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/theme"
+                      android:textStyle="bold"
+                      android:id="@+id/textView" />
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="2228"
+                      android:id="@+id/requests_theme"
+                      android:gravity="center_horizontal" />
+
+              </TableRow>
+
+              <TableRow
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/author"
+                      android:textStyle="bold"
+                      android:id="@+id/textView2" />
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="2228"
+                      android:id="@+id/requests_author"
+                      android:gravity="center_horizontal" />
+              </TableRow>
+
+              <TableRow
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/date"
+                      android:textStyle="bold"
+                      android:id="@+id/textView3" />
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="2228"
+                      android:id="@+id/requests_date"
+                      android:gravity="center_horizontal" />
+              </TableRow>
+
+          </LinearLayout>
+
+      </LinearLayout>
+
+
+    </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+    <ImageButton
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:id="@+id/button_fromgallery"
+        android:background="@mipmap/ic_gallery"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:textSize="12sp"
+            android:text="@string/fromgallery"
+            android:layout_below="@+id/button_fromgallery"
+            android:layout_centerHorizontal="true">
+        </TextView>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center_horizontal">
+    <ImageButton
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:id="@+id/button_fromcamera"
+        android:background="@mipmap/ic_camera_alt"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:textSize="12sp"
+            android:text="@string/fromCamera"
+            android:layout_below="@+id/button_fromcamera"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</LinearLayout>
